@@ -1115,7 +1115,7 @@ p.text-muted.tcts {
 .ticket-row > label {
     color: #05073C;
     font-family: Inter;
-    font-size: 12px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1; /* 196.721% */
@@ -1124,7 +1124,7 @@ p.text-muted.tcts {
 .ticket-row > span {
     color: #05073C;
     /* font-family: Inter; */
-    font-size: 12px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 500;
     /* line-height: 1; */
@@ -1328,6 +1328,28 @@ width: 100%;
     height: 260px;
     border-radius: 10px;
     object-fit: cover;
+}
+.info-section .info-box {
+  background: #fff;
+  border: 1px solid #e7e6e6;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 18px;
+}
+
+.info-section h6 {
+  font-size: 16px;
+  color: #05073C;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.info-section .fw-bold {
+  color: #05073C;
+}
+
+.info-section .fa-home,
+.info-section .fa-bed {
+  color: #293750;
 }
 
 /* Responsive */
