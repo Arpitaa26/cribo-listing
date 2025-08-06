@@ -1355,6 +1355,17 @@ width: 100%;
   color: #293750;
 }
 
+.sidebar-wrapper {
+  position: sticky;
+  top: 100px; /* Adjust this based on your header height */
+}
+
+@media (max-width: 991.98px) {
+  .sidebar-wrapper {
+    position: static; /* disable sticky on tablets and mobile */
+  }
+}
+
 /* Responsive */
 @media (max-width: 767px) {
   .listing-title {
