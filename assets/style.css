@@ -1086,6 +1086,9 @@ input.form-control.subscribe-form:active {
     line-height: 1;
     padding: 12px 20px;
     border: none;
+        border-radius: 5px;
+    background: #293750;
+    font-size: 14px;
 }
 h5.from-prc {
     color: #05073C;
@@ -1231,7 +1234,7 @@ padding: 20px 25px;
     border: 1px solid #E7E6E6;
     background: #FFF;
     box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.05);
-    margin-top: -30px !important;
+    /* margin-top: -30px !important; */
 }
 
 .property-section-title {
